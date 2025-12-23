@@ -1,2 +1,5 @@
 MIDTRANS_SERVER_KEY=SB-Mid-server-xxxx
 VITE_MIDTRANS_CLIENT_KEY=SB-Mid-client-xxxx
+EMAIL_USER=akun@gmail.com
+EMAIL_PASS=APP_PASSWORD_GMAIL
+EMAIL_TARGET=tujuan@gmail.com
