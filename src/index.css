@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, system-ui;
+}
+
+body {
+  min-height: 100vh;
+  background: radial-gradient(circle at right, #020617, #000);
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 40px;
+}
+
+.card {
+  width: 420px;
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(25px);
+  border-radius: 22px;
+  padding: 30px;
+  box-shadow: 0 0 50px rgba(56,189,248,.35);
+}
+
+.avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 3px solid #38bdf8;
+  object-fit: cover;
+}
+
+.method {
+  margin-top: 14px;
+  padding: 15px;
+  border-radius: 14px;
+  background: linear-gradient(135deg,#0ea5e9,#6366f1);
+  cursor: pointer;
+  transition: .25s;
+}
+
+.method:hover {
+  transform: scale(1.05);
+}
